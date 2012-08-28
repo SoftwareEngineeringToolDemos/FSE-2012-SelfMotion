@@ -1,0 +1,47 @@
+action	barcodeReader
+pre :	hasCameraWithAutoFocus
+post :	barcode(productBarcode)
+
+action	blurryBarcodeReader
+pre :	hasCameraWithFixedFocus
+post :	image(blurryBarcodeImage)
+
+action	blurryDecoder(Image)
+pre :	image(Image)
+post:	barcode(productBarcode)
+
+action  getProductName(Barcode)
+pre :   barcode(Barcode)
+post:   productName(name)
+
+action	inputPrice(Name)
+pre :	productName(Name)
+post :	price(productPrice)
+
+action	getPositionWithGPS
+pre :	hasGPS, isGPSEnabled
+post:	position(gpsPosition)
+
+action	getApproximatePosition
+pre :	true
+post:	approximatePosition(userApproximatePosition)
+
+action	getPositionManually(Position)
+pre :	approximatePosition(Position)
+post:	position(userDefinedPosition)
+
+action	enableGPS
+pre :	~isGPSEnabled
+post:	isGPSEnabled
+
+action	webSearch(Barcode)
+pre :	barcode(Barcode)
+post :	listOfOnlinePrices(onlinePrices), onlinePricesRetrieved
+
+action	localSearch(Barcode, Position)
+pre :	barcode(Barcode), position(Position)
+post :	listOfLocalPrices
+
+action	sharePrice(Name, Price)
+pre :	productName(Name), price(Price), onlinePricesRetrieved
+post :	sharedPrice
