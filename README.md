@@ -9,4 +9,4 @@ In this repository, for ExampleTool you will find:
 * :white_check_mark: [Source code](https://github.com/leandroshp/self-motion) (available)
 * :white_check_mark: [The original demo](https://github.com/leandroshp/self-motion/tree/master/examples/ShopReview) (available)
 
-This repository was constructed by [Jennifer Tsan](https://github.com/jentsan), Venkatesh Sambandamoorthy, and Sarthak Shetty under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson). Thanks to Leandro Sales Pinto for his help in establishing this repository. 
+This repository was constructed by [Jennifer Tsan](https://github.com/jentsan), [Venkatesh Sambandamoorthy](https://github.com/ven0226), and [Sarthak Shetty](https://github.com/spshetty) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson). Thanks to Leandro Sales Pinto for his help in establishing this repository. 
