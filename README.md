@@ -2,10 +2,10 @@
 
 This repository contains information related to the language Self-Motion presented at Foundations of Software Engineering, 2012. The language was originally presented in [this paper](http://dl.acm.org/citation.cfm?doid=2393596.2393602).
 
-This repository _is not_ the original repository for this tool. Here are some links to the original project:
+This repository _is not_ the original repository for Self-Motion. Here are some links to the original project:
 * [The Official Project Page, including source code](http://www.dsol-lang.net/self-motion.html)
 
-In this repository, for ExampleTool you will find:
+In this repository, for Self-Motion you will find:
 * :white_check_mark: [Source code](https://github.com/jentsan/self-motion) (available)
 * :white_check_mark: [The original demo](https://github.com/jentsan/self-motion/tree/master/examples/ShopReview) (available)
 
