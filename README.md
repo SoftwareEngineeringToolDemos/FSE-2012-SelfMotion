@@ -4,6 +4,7 @@ This repository contains information related to the declarative language and run
 
 This repository _is not_ the original repository for Self-Motion. Here are some links to the original project:
 * [The Official Project Page, including source code](http://www.dsol-lang.net/self-motion.html)
+* [The Tool on Github](https://github.com/leandroshp/self-motion)
 
 In this repository, for Self-Motion you will find:
 * :white_check_mark: [Source code](https://github.com/jentsan/self-motion) (available)
