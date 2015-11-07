@@ -1,4 +1,4 @@
-
+Instructions
 1. Open up terminal or command prompt.
 2. Type in 'vagrant init hashicorp/precise32'. This will create a Vagrantfile.
 3. Open up the Vagrantfile and type in 'config.vm.provision :shell, path: "bootstrap.sh"' after 'config.vm.box_url = "http://files.vagrantup.com/precise64.box"'.
