@@ -1,0 +1,19 @@
+Instructions
+
+1. Install Java
+
+2. Download eclipse
+
+3. Download the code for SelfMotion and the ShopReview example: https://github.com/SoftwareEngineeringToolDemos/FSE-2012-SelfMotion
+
+4. Install the Android Developer Tools (ADT) plugin for eclipse: http://developer.android.com/sdk/installing/installing-adt.html
+
+5. Open the Android SDK Manager and install Android SDK Build-tools Rev. 23.0.2 and Android 2.2 (API 8), making sure the ADK Platform, Samples for SDK, and Google APIs all get installed.
+
+6. Open the Android Virtual Device Manager. Click on the "Create" button. Create a device with the target as "Google APIs (Google Inc.) - API Level 8". All other specifications can be chosen by the user.
+
+7. Go to File > Import > Android > Existing Android Code Into Workspace and import the ShopReview under FSE-2012-SelfMotion/examples.
+
+8. Sign up for a Google maps API key (https://developers.google.com/maps/signup?hl=en) and in the map_layout.xml file under res/layout, set "android:apiKey" to the key that was given.
+
+9. Run the code as specified in Readme.txt.
