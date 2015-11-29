@@ -1,15 +1,17 @@
 Instructions
 
 
-1. Open up terminal or command prompt.
+1. Download and install [Vagrant](https://www.vagrantup.com/downloads.html)
 
-2. Type in 'vagrant init nritholtz/ubuntu-14.04.1'. This will create a Vagrantfile.
+2. Download and install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
-3. Replace the Vagrantfile in the directory with the Vagrantfile in this repo.
+3. Type in 'vagrant init nritholtz/ubuntu-14.04.1'. This will create a Vagrantfile.
 
-4. Type in 'vagrant up' to start the machine.
+4. Replace the Vagrantfile in the directory with the Vagrantfile in this repo.
 
-5. After vagrant is done running the script, open VirtualBox and power on the machine.
+5. Type in 'vagrant up' to start the machine.
+
+6. After vagrant is done running the script, open VirtualBox and power on the machine.
   
 Script sources:
 
