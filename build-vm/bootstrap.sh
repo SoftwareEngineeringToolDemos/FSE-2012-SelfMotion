@@ -28,16 +28,14 @@ rm android-sdks.tar.gz
 
 #Make Eclipse shortcut
 echo "Making an eclipse shortcut"
-#sudo touch ~/Desktop/Eclipse.desktop
 echo -e "[Desktop Entry]\nType=Application\nTerminal=false\nName=Eclipse\nIcon=Desktop/eclipse/icon.xpm\nExec=Desktop/eclipse/eclipse\nX-GNOME-Autostart-enabled=true" | sudo tee Desktop/Eclipse.desktop
 sudo chmod +x Desktop/Eclipse.desktop
 
 #Make Eclipse autostart
-mkdir home/vagrant/.config/autostart/
+mkdir .config/autostart/
 echo "Making eclipse start on boot"
-#sudo touch home/vagrant/.config/autostart/Eclipse.desktop
-echo -e "[Desktop Entry]\nType=Application\nTerminal=false\nName=Eclipse\nIcon=Desktop/eclipse/icon.xpm\nExec=Desktop/eclipse/eclipse\nX-GNOME-Autostart-enabled=true" | sudo tee ~/.config/autostart/Eclipse.desktop
-sudo chmod +x home/vagrant/.config/autostart/Eclipse.desktop
+echo -e "[Desktop Entry]\nType=Application\nTerminal=false\nName=Eclipse\nIcon=Desktop/eclipse/icon.xpm\nExec=Desktop/eclipse/eclipse\nX-GNOME-Autostart-enabled=true" | sudo tee .config/autostart/Eclipse.desktop
+sudo chmod +x .config/autostart/Eclipse.desktop
 
 #Set launcher icons
 gsettings set com.canonical.Unity.Launcher favorites "['unity://running-apps','application://nautilus.desktop','unity://expo-icon','unity://devices']"
@@ -58,15 +56,8 @@ wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=0Bwnh
 unzip -o .android.zip
 rm .android.zip
 
-#Create emulator
-#echo "Rebooting"
-#sudo reboot
-#echo "Creating emulator"
-#sudo android-sdks/tools/android create avd -n AndroidDevice -t 2
-
 #Launch emulator on boot
 echo "Making emulator launch on boot"
-#sudo touch home/vagrant/.config/autostart/emulator.desktop
 echo -e "[Desktop Entry]\nType=Application\nTerminal=false\nName=emulator\nExec='android-sdks/tools/emulator -avd AndroidDevice'\nX-GNOME-Autostart-enabled=true" | sudo tee home/vagrant/.config/autostart/emulator.desktop
 sudo chmod +x home/vagrant/.config/autostart/emulator.desktop
 
@@ -88,10 +79,10 @@ wget https://github.com/SoftwareEngineeringToolDemos/FSE-2012-SelfMotion/raw/mas
 echo "Moving License.txt to Desktop"
 mv License.txt Desktop
 
-#Add Youtube Link - https://youtu.be/cVsFrIDQukY
+#Add Youtube Link - https://youtu.be/U8GaODpFvB8
 echo "Creating a youtube link"
 sudo touch ~/Desktop/SelfMotionDemo.desktop
-echo -e "[Desktop Entry]\nEncoding=UTF-8\nName=Link to SelfMotion Demo\nType=Link\nURL=https://youtu.be/cVsFrIDQukY\nIcon=text-html" | sudo tee Desktop/SelfMotionDemo.desktop
+echo -e "[Desktop Entry]\nEncoding=UTF-8\nName=Link to SelfMotion Demo\nType=Link\nURL=https://youtu.be/U8GaODpFvB8\nIcon=text-html" | sudo tee Desktop/SelfMotionDemo.desktop
 
 #Shutdown
 sudo shutdown -h now 
