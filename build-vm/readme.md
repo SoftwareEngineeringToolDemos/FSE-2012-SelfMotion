@@ -3,15 +3,13 @@ Instructions
 
 1. Open up terminal or command prompt.
 
-2. Type in 'vagrant init hashicorp/precise32'. This will create a Vagrantfile.
+2. Type in 'vagrant init nritholtz/ubuntu-14.04.1'. This will create a Vagrantfile.
 
-3. Open up the Vagrantfile and type in 'config.vm.provision :shell, path: "bootstrap.sh"' after 'config.vm.box_url = "http://files.vagrantup.com/precise64.box"'.
+3. Replace the Vagrantfile in the directory with the Vagrantfile in this repo.
 
 4. Type in 'vagrant up' to start the machine.
 
-5. Type in 'vagrant ssh' to ssh into the machine.
-
-6. If you would like to check the java version type in 'java -version'.
+5. After vagrant is done running the script, open VirtualBox and power on the machine.
   
 Script sources:
 
