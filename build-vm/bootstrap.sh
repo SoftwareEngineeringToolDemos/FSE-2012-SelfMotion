@@ -83,8 +83,10 @@ echo "Moving Instructions.txt to Desktop"
 mv Instructions.txt Desktop
 
 #Add License.txt
-#wget
-#mv License.txt Desktop
+echo "Downloading License.txt"
+wget https://github.com/SoftwareEngineeringToolDemos/FSE-2012-SelfMotion/raw/master/build-vm/License.txt
+echo "Moving License.txt to Desktop"
+mv License.txt Desktop
 
 #Add Youtube Link - https://youtu.be/cVsFrIDQukY
 echo "Creating a youtube link"
