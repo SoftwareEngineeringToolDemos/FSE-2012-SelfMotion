@@ -11,11 +11,13 @@ Instructions
 
 5. Download the Vagrantfile in this repo and replace the Vagrantfile created in the directory.
 
-6. Type in 'vagrant up' to start the machine.
+6. Download the file 'bootstrap.sh' into the same directory as the Vagrantfile.
 
-7. After vagrant is done running the script, open VirtualBox and power on the machine.
+7. Type in 'vagrant up' to start the machine.
 
-8. To use SelfMotion, read the readme.txt in the machine or in [this](https://github.com/SoftwareEngineeringToolDemos/FSE-2012-SelfMotion/blob/master/build-vm/Readme.txt) repository.
+8. After vagrant is done running the script, open VirtualBox and power on the machine.
+
+9. To use SelfMotion, read the readme.txt in the machine or in [this](https://github.com/SoftwareEngineeringToolDemos/FSE-2012-SelfMotion/blob/master/build-vm/Readme.txt) repository.
 
 ----------------------------------------------------------------------------------------------------------------------------
 
