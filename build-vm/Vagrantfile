@@ -4,7 +4,7 @@
 Vagrant.configure(2) do |config|
   
   config.vm.box = "nritholtz/ubuntu-14.04.1"
-  config.vm.provision :shell, path: "temp.sh"
+  config.vm.provision :shell, path: "bootstrap.sh"
   config.ssh.username = 'vagrant'
 
    config.vm.provider "virtualbox" do |vb|
