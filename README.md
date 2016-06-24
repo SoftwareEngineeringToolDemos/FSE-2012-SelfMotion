@@ -10,7 +10,7 @@ In this repository, for Self-Motion you will find:
 * :white_check_mark: [Source code](https://github.com/jentsan/self-motion) (available)
 * :x: The original tool (not available)
 * :white_check_mark: [The original demo](https://github.com/jentsan/self-motion/tree/master/examples/ShopReview) (available)
-* :white_check_mark: [Virtual machine containing tool](https://drive.google.com/file/d/0Bwnh9aHCFlSxbG0xczJCdXdkQnM/view?usp=sharing) (available)
+* :white_check_mark: [Virtual machine containing tool](http://go.ncsu.edu/SE-tool-VMs)
 
 This repository was constructed by [Jennifer Tsan](https://github.com/jentsan), [Venkatesh Sambandamoorthy](https://github.com/ven0226), and [Sarthak Shetty](https://github.com/spshetty) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson). Thanks to Leandro Sales Pinto for his help in establishing this repository. 
 
